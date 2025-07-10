@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace CSharpConsoleExercises;
+namespace ConsoleExercises;
 
 public class CurrentDateTimeFormat
 {

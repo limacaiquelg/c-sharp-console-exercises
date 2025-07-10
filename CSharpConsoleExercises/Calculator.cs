@@ -1,4 +1,4 @@
-﻿namespace CSharpConsoleExercises;
+﻿namespace ConsoleExercises;
 
 public static class Calculator
 {
@@ -13,9 +13,7 @@ public static class Calculator
             string? firstEntry = Console.ReadLine();
             Console.WriteLine("");
 
-            double firstValue;
-
-            if (firstEntry is null || firstEntry.Trim().Length == 0 || !Double.TryParse(firstEntry.Trim(), out firstValue))
+            if (firstEntry is null || firstEntry.Trim().Length == 0 || !Double.TryParse(firstEntry.Trim(), out double firstValue))
             {
                 Console.Write("Primeiro valor inválido! ");
                 Console.ReadKey();
@@ -28,9 +26,7 @@ public static class Calculator
             string? secondEntry = Console.ReadLine();
             Console.WriteLine("");
 
-            double secondValue;
-
-            if (secondEntry is null || secondEntry.Trim().Length == 0 || !Double.TryParse(secondEntry.Trim(), out secondValue))
+            if (secondEntry is null || secondEntry.Trim().Length == 0 || !Double.TryParse(secondEntry.Trim(), out double secondValue))
             {
                 Console.Write("Segundo valor inválido! ");
                 Console.ReadKey();

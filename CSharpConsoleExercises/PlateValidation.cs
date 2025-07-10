@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace CSharpConsoleExercises;
+namespace ConsoleExercises;
 
 public class PlateValidation
 {

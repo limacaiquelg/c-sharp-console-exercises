@@ -1,4 +1,4 @@
-﻿namespace CSharpConsoleExercises;
+﻿namespace ConsoleExercises;
 
 public class CharCounter
 {
