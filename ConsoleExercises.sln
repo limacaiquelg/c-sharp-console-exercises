@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExercises", "CSharpConsoleExercises\ConsoleExercises.csproj", "{03B74835-BEA8-4A33-A0D5-79A81C13E13E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExercises", "ConsoleExercises\ConsoleExercises.csproj", "{03B74835-BEA8-4A33-A0D5-79A81C13E13E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
